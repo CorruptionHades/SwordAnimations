@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "swordanimations",
+  "version": "${version}",
+  "name": "SwordAnimations",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.corruptionhades.swordanimations.client.SwordAnimationsClient"
+    ],
+    "main": [
+      "me.corruptionhades.swordanimations.SwordAnimations"
+    ]
+  },
+  "mixins": [
+    "SwordAnimations.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
